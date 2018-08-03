@@ -6,7 +6,7 @@
 
     <external-media-path 
        name="external-media-path"  
-       path=".">
+       path="." />
 
     <cache-path
         name="cache-path"
