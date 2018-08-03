@@ -12,11 +12,11 @@ import com.facebook.react.bridge.ReactMethod;
 
 import java.io.File;
 
-public class RNApkManagerModule extends ReactContextBaseJavaModule {
+public class RNApkInstallerNModule extends ReactContextBaseJavaModule {
 
   private final ReactApplicationContext reactContext;
 
-  public RNApkManagerModule(ReactApplicationContext reactContext) {
+  public RNApkInstallerNModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
   }
