@@ -1,0 +1,24 @@
+
+{
+  "name": "react-native-apk-installer-n",
+  "version": "1.0.0",
+  "description": "Install APK for android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-app-install",
+    "react-native-app-installer-n"
+  ],
+  "author": "nodece",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodece/react-native-apk-installer-n"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
