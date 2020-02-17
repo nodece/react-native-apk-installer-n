@@ -1,13 +1,18 @@
 
 # react-native-apk-installer-n
 
-Support Android 7.x
+Support AndroidX and Android other version
 
 ## Getting started
 
-`$ npm install react-native-apk-installer-n --save`
+AndroidX  
+`$ yarn add react-native-apk-installer-n`
 
-### Mostly automatic installation
+Other version  
+`$ yarn add react-native-apk-installer-n@1.0.5`
+
+
+### Mostly automatic install with react-native link (RN < 0.60)
 
 `$ react-native link react-native-apk-installer-n`
 
