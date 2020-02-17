@@ -1,6 +1,6 @@
 {
   "name": "react-native-apk-installer-n",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "A react-native library to install APK on Android",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   },
   "peerDependencies": {
     "react-native": "^0.41.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
