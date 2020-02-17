@@ -9,7 +9,7 @@ AndroidX
 `$ yarn add react-native-apk-installer-n`
 
 Other version  
-`$ yarn add react-native-apk-installer-n@1.0.5`
+`$ yarn add react-native-apk-installer-n@1`
 
 
 ### Mostly automatic install with react-native link (RN < 0.60)
