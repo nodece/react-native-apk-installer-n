@@ -7,7 +7,7 @@
 
     <application>
         <provider
-            android:name="androidx.core.content.FileProvider"
+            android:name="com.nodece.apkinstallern.RNApkInstallerNFileProvider"
             android:authorities="${applicationId}.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
@@ -17,4 +17,4 @@
         </provider>
     </application>
 </manifest>
-  
+
