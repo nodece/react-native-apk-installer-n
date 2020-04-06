@@ -1,4 +1,3 @@
-
 import { NativeModules } from 'react-native';
 
 const { RNApkInstallerN } = NativeModules;
