@@ -12,14 +12,18 @@
     "react-native-app-install",
     "react-native-app-installer-n"
   ],
-  "author": "nodece",
+  "author": {
+    "name": "Zixuan Liu",
+    "email": "nodeces@gmail.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/nodece/react-native-apk-installer-n"
   },
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
