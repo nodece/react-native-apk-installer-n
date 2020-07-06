@@ -26,6 +26,11 @@ public class RNApkInstallerNModule extends ReactContextBaseJavaModule {
     return "RNApkInstallerN";
   }
 
+  @ReactMethod
+  public String echoString() {
+    return "error installing the apk file";
+  }
+
 
   @ReactMethod
   public void install(String filePath, Promise promise) {
@@ -45,6 +50,7 @@ public class RNApkInstallerNModule extends ReactContextBaseJavaModule {
       intent.setDataAndType(apkUri, "application/vnd.android.package-archive");
       reactContext.startActivity(intent);
     } catch (Exception e) {
+      echoString();
       promise.reject(e);
     }
   }
