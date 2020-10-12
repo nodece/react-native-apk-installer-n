@@ -1,4 +1,4 @@
 declare class RNApkInstallerN {
-    static install(): Promise<string>;
+    static install(filePath:string): Promise<string>;
 }
 export default RNApkInstallerN;
