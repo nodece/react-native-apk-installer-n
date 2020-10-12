@@ -2,7 +2,3 @@
 # yarn lockfile v1
 
 
-jetifier@^1.6.5:
-  version "1.6.5"
-  resolved "https://registry.npm.taobao.org/jetifier/download/jetifier-1.6.5.tgz?cache=0&sync_timestamp=1574956541980&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjetifier%2Fdownload%2Fjetifier-1.6.5.tgz#ea87324a4230bef20a9651178ecab978ee54a8cb"
-  integrity sha1-6ocySkIwvvIKllEXjsq5eO5UqMs=
